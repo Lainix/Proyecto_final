@@ -1,0 +1,113 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.carousel {
+  position: relative;
+}
+
+#header-img {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+#imgItem {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.row {
+  margin: 1px solid black;
+}
+
+section {
+  min-height: 100%;
+}
+
+#cart-items {
+  position: absolute;
+  top: 90%;
+  right: 0%;
+  z-index: 999;
+  border: 0px !important;
+  display: none;
+  color: #622569;
+}
+
+#items-basket {
+  position: absolute;
+  display: none;
+  top: -5px;
+  left: -10px;
+  width: 1.45rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.cart {
+  float: right;
+  text-align: center;
+  color: #622569;
+  position: relative;
+}
+
+footer {
+  align-self: flex-end;
+  width: 100%;
+  position: relative;
+  background-color: #77a8a8;
+}
+
+.card {
+  text-align: center;
+  float: left;
+  margin: 2%;
+}
+
+#paypal-button {
+  z-index: -999;
+}
+
+#up {
+  text-decoration: none;
+}
+
+#op {
+  list-style: none
+}
+
+
+#contenedor {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #77a8a8;
+  /* color: white; */
+  text-align: center;
+}
+
+
+
+
+
+
+
+#badge{
+  background-color: #77a8a8;
+  text-align: center;
+  border-radius: 1%;
+  padding: 20px;
+  opacity: 90%;
+}
+
+.my-fixed-item {
+  position: fixed;
+  right: 60px;
+  word-wrap: break-word;
+}
